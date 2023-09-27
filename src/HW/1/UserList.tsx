@@ -3,7 +3,7 @@ type AddressType = {
     city: string; // ПОДПРАВЛЯЕМ any
 };
 
-type UserType = {
+export type UserType = {
     id: number,
     name: string,
     age: number,
